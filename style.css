@@ -1,14 +1,17 @@
 #container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    width: 540px;
-
+    max-width: 480px;
+    max-height: 480px;
+    border:1px solid black;
 }
 .box {
-    background: pink;
-    width: 32.22px;
-    height: 23px;
+    background: white;
+    margin: 0px;
+    padding: 0px;
+    flex: 1 1 auto;
+  
 }
 
 .hover {
@@ -20,4 +23,18 @@
 }
 #btn {
     background:pink;
+}
+
+.tiny{
+    height: 30px;
+    width: 30px;
+}
+.small {
+    height: 15px;
+    width: 15px;
+}
+.medium {
+    height: 7.5px;
+    width: 7.5px;
+
 }
