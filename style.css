@@ -1,0 +1,23 @@
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 540px;
+
+}
+.box {
+    background: pink;
+    width: 32.22px;
+    height: 23px;
+}
+
+.hover {
+    background: purple;
+}
+.button {
+    color:pink;
+    margin:20px;
+}
+#btn {
+    background:pink;
+}
